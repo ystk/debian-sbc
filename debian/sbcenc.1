@@ -1,0 +1,53 @@
+.TH SBCENC 1 "2012-11-15" "1.0" ""
+
+.SH NAME
+sbcenc \- SBC encoder utility
+
+.SH SYNOPSIS
+.B sbcenc
+.RI [options]
+.RI file(s)
+
+.SH DESCRIPTION
+.B sbcenc
+command encode SBC audio file.
+
+.SH OPTIONS:
+.TP
+.B \\-h, --help
+Display help
+
+.TP
+.B \\-v, --verbose
+Verbose mode
+
+.TP
+.B \\-s, --subbands
+Number of subbands to use (4 or 8)
+
+.TP
+.B \\-b, --bitpool
+Bitpool value (default is 32)
+
+.TP
+.B \\-j, --joint
+Joint stereo
+
+.TP
+.B \\-d, --dualchannel
+Dual channel
+
+.TP
+.B \\-S, --snr
+Use SNR mode (default is loudness)
+
+.TP
+.B \\-B, --blocks
+Number of blocks (4, 8, 12 or 16)
+
+.SH AUTHOR
+Marcel Holtmann <marcel@holtmann.org>
+
+.PP
+This manual page was written by Nobuhiro Iwamatsu <iwamatsu@debian.org>,
+for the Debian project (but may be used by others).

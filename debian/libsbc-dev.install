@@ -1,0 +1,4 @@
+usr/include/sbc
+usr/lib/*/libsbc.a
+usr/lib/*/libsbc.so
+usr/lib/*/pkgconfig
